@@ -4,7 +4,7 @@
   </div>
 </template>
 <script setup>
-  import Menu from './Menu/Menu.vue'
+  import Menu from './Menu/menu.vue'
 </script>
 
 <style scoped>
