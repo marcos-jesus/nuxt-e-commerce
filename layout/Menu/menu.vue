@@ -2,7 +2,9 @@
   <div class="header">
     <Logo />
     <Input />
-    <Login/>
+    <div class="headerStyle">
+      <Login/>
+    </div>
   </div>
 </template>
 <script setup>
@@ -18,4 +20,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .headerStyle {
+    margin-right: 2.25rem;
+  }
+
+
 </style>
