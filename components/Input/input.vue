@@ -1,12 +1,11 @@
 <template>
   <div class="input-group">
     <input class="form-control" type="text">
-    <ElButton class="btn btn-outline-primary btnSearch" @click="searchMethod">
+    <button class="btn btn-outline-primary btnSearch" @click="searchMethod">
       <span class="bi bi-search  align-self-center btnSearchIcon" aria-hidden="true"></span>
-    </ElButton>
+    </button>
   </div>
 </template>
 <script setup>
-  import { ElButton } from 'element-plus'
 </script>
-<style scoped src="./input.scss"></style>
+<style scoped src="./input.css"></style>
