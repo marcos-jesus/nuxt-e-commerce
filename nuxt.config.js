@@ -1,9 +1,4 @@
 export default defineNuxtConfig({
-  vite: {
-    optimizeDeps: {
-      include: ['@popperjs/core']
-    }
-  },
   app: {
     head: {
       link: [
@@ -13,16 +8,6 @@ export default defineNuxtConfig({
       script: [
         { src: '~/node_modules/bootstrap/dist/js/bootstrap.min.js' }
       ]
-    },
-  },
-  build: {
-    loaders: {
-      scss: {
-        implementation: require('sass'),
-        sassOptions: {
-          fiber: require('fibers'),
-        },
-      },
     },
   },
   css: [

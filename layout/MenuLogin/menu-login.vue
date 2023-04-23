@@ -7,4 +7,4 @@
   </div>
 </template>
 
-<style src="./menu-login.scss" scoped></style>
+<style src="./menu-login.css" scoped></style>
