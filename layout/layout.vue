@@ -1,5 +1,5 @@
 <template>
-  <div class="Layout">
+  <div class="container bg-cyan-600">
     <Menu />
   </div>
 </template>

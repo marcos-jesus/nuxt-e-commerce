@@ -1,4 +1,3 @@
 <template>
-  <span style="color:white; font-weight: bold;">LOGO</span>
+  <span>LOGO</span>
 </template>
-<style scoped src="./logo.css"></style>
